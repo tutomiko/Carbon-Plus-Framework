@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include=".build">
+      <UniqueIdentifier>{03679fee-0dad-4bf9-b17a-015ca495ea11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files">
+      <UniqueIdentifier>{aff1cfc5-5b7f-4af2-825b-1df9af65d3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fd0071e5-694f-410c-834b-ad6730bcc6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Header Files\util">
+      <UniqueIdentifier>{2cc370f9-ebd4-4c29-b9e4-185c99c628b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files\deprecated">
+      <UniqueIdentifier>{c71a4cb6-b45d-45be-a2a0-bed495eb7900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files\deprecated\sys">
+      <UniqueIdentifier>{d6e1cb30-a344-4e38-a9e1-0e87deb71e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files\deprecated\util">
+      <UniqueIdentifier>{f0b18aa1-57ce-4818-8b80-38a39ee9e563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files\deprecated\net">
+      <UniqueIdentifier>{ca12ea04-8b24-42ac-ae93-5e0da5140fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Header Files\sys">
+      <UniqueIdentifier>{e27b3e94-8af0-4191-8995-ebc8854b9801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Header Files\net">
+      <UniqueIdentifier>{cf6baf98-782d-4acf-ab5b-cf261eea335f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Header Files\type">
+      <UniqueIdentifier>{5bc162a2-2dc6-4f07-8574-de9a509e5c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files\net">
+      <UniqueIdentifier>{906650e1-b0ae-4fc0-aad6-576b7240ecd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files\net\o32">
+      <UniqueIdentifier>{12e713d5-87ee-4b67-842b-d9eedc63f638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files\sys">
+      <UniqueIdentifier>{3a0cdd01-0274-453d-87cb-d2dfc148345d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files\util">
+      <UniqueIdentifier>{304f5d41-95e0-4e32-a89b-e6ae831637aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.c">
+      <Filter>.build</Filter>
+    </ClCompile>
+    <ClCompile Include="addrconvert.c">
+      <Filter>Internal Header Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="files.c">
+      <Filter>Internal Header Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="hnconvert.c">
+      <Filter>Internal Header Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="privilege.c">
+      <Filter>Internal Header Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="platform.c">
+      <Filter>Internal Header Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="strings.c">
+      <Filter>Internal Header Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="socket.c">
+      <Filter>Internal Header Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.c">
+      <Filter>Internal Header Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandLine.c">
+      <Filter>Internal Header Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="mark.c">
+      <Filter>Internal Header Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="bin.c">
+      <Filter>Internal Header Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="hex.c">
+      <Filter>Internal Header Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="hex-editor.c">
+      <Filter>Internal Header Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="processes.c">
+      <Filter>Internal Header Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="ipgen.c">
+      <Filter>Internal Header Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="o32convert.c">
+      <Filter>Internal Header Files\net\o32</Filter>
+    </ClCompile>
+    <ClCompile Include="o32get.c">
+      <Filter>Internal Header Files\net\o32</Filter>
+    </ClCompile>
+    <ClCompile Include="bswap.c">
+      <Filter>Internal Header Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="lhnetconvert.c">
+      <Filter>Internal Header Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="endianness.c">
+      <Filter>Internal Header Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="transnet.c">
+      <Filter>Internal Header Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="sbomb.c">
+      <Filter>Internal Header Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="bitwise.c">
+      <Filter>Internal Header Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="netaccess.c">
+      <Filter>Internal Header Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="getip.c">
+      <Filter>Internal Header Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="cwd.c">
+      <Filter>Internal Header Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="errorx.c">
+      <Filter>Internal Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>.build</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks.h">
+      <Filter>Export Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwbase.h">
+      <Filter>Export Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\endian.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\portc.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\inet_addr.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\inet6_addr.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\url.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unisockapi.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\inetaddrstorage.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\inetep.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwnetapi.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwsyster.h">
+      <Filter>Internal Header Files\deprecated\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\studhelp.h">
+      <Filter>Internal Header Files\deprecated\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwmem.h">
+      <Filter>Internal Header Files\deprecated\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwfileapi.h">
+      <Filter>Internal Header Files\deprecated\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwptfx.h">
+      <Filter>Internal Header Files\deprecated\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwstrings.h">
+      <Filter>Internal Header Files\deprecated\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\macaddr.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwthreading.h">
+      <Filter>Internal Header Files\deprecated\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\projorganize.h">
+      <Filter>Internal Header Files\deprecated\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hexor.h">
+      <Filter>Internal Header Files\deprecated\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binxedit.h">
+      <Filter>Internal Header Files\deprecated\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\o32.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwprocessthreadsapi.h">
+      <Filter>Internal Header Files\deprecated\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cprimix.h">
+      <Filter>Internal Header Files\deprecated\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwtransapi.h">
+      <Filter>Internal Header Files\deprecated\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bitman.h">
+      <Filter>Internal Header Files\deprecated\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwhwx.h">
+      <Filter>Internal Header Files\deprecated\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fwerror.h">
+      <Filter>Export Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\util\charset.h">
+      <Filter>Export Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\sys\io.h">
+      <Filter>Export Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\util\logging.h">
+      <Filter>Export Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\sys\console.h">
+      <Filter>Export Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\util\primitives.h">
+      <Filter>Export Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\util\studhelp.h">
+      <Filter>Export Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\util\memory.h">
+      <Filter>Export Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\net\socket.h">
+      <Filter>Export Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\type\bool.h">
+      <Filter>Export Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\type\byte.h">
+      <Filter>Export Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\type\bytearray.h">
+      <Filter>Export Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\type\char.h">
+      <Filter>Export Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\type\double.h">
+      <Filter>Export Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\type\float.h">
+      <Filter>Export Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\type\int.h">
+      <Filter>Export Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\type\long.h">
+      <Filter>Export Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\type\short.h">
+      <Filter>Export Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\type\string.h">
+      <Filter>Export Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireworks\util\error.h">
+      <Filter>Export Header Files\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
