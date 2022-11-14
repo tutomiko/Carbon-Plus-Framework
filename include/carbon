@@ -1,8 +1,0 @@
-
-#ifndef _INCLUDE_CARBON_EVOLVE
-#define _INCLUDE_CARBON_EVOLVE
-
-#include <carbonx/cbevo.h>
-#endif // !_INCLUDE_CARBON_EVOLVE
-
-
