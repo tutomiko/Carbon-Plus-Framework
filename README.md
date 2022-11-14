@@ -1,24 +1,12 @@
 <h1 align="center" font-size=100>Carbon Plus Framework</h1>
 
 <p align="center">
-  <a href="#getting-started">Getting Started</a> |
-  <a href="#dependencies">Dependencies</a> |
-  <a href="#examples">Examples</a> |
   <a href="#contribute">Contribute</a> |
   <a href="#donate">Donate</a>
 </p>
 
 ## Overview
-
-
-## Getting Started
-
-
-## Dependencies
-
-
-## Examples
-
+Carbon Plus is a powerful general-purpose library that implements the functionalities of the pure-C <a href="https://github.com/tutomiko/Carbon-Framework">Carbon Framework</a> for C++.
 
 ## Contribute
 All who wish to pitch in on development of the project are more than welcome!
