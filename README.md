@@ -1,4 +1,4 @@
-<h1 align="center" font-size=100>Carbon Evolve Framework</h1>
+<h1 align="center" font-size=100>Carbon Plus Framework</h1>
 
 <p align="center">
   <a href="#getting-started">Getting Started</a> |
