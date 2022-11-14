@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include=".build">
+      <UniqueIdentifier>{03679fee-0dad-4bf9-b17a-015ca495ea11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files">
+      <UniqueIdentifier>{aff1cfc5-5b7f-4af2-825b-1df9af65d3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fd0071e5-694f-410c-834b-ad6730bcc6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Header Files\net">
+      <UniqueIdentifier>{c9347bef-d812-44cd-b8b2-43d17f24f16c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Header Files\sys">
+      <UniqueIdentifier>{c0cde594-c70f-4111-9109-a35df68c8455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Header Files\type">
+      <UniqueIdentifier>{a7aaca25-e9b8-4410-824d-ceda9c22d460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Header Files\util">
+      <UniqueIdentifier>{3faa6dd2-27aa-4a47-bbed-59e173fc5715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net">
+      <UniqueIdentifier>{efa2773b-4222-4946-91be-87f67447906f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sys">
+      <UniqueIdentifier>{a0a74493-fe8d-4cbb-ae7c-81a997a2c2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\type">
+      <UniqueIdentifier>{06f0bae5-8b40-4446-a2e7-b0cae1606cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{733fb906-b52f-479a-889d-1c292d4e8e5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="experimental\commandline.c">
+      <Filter>Source Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="experimental\getip.c">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="experimental\sockio.c">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="experimental\xstring.c">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="experimental\fireworks\sys\commandline.h">
+      <Filter>Export Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="experimental\fireworks\net\sockio.h">
+      <Filter>Export Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="experimental\fireworks\util\easy.h">
+      <Filter>Export Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="experimental\fireworks\util\xstring.h">
+      <Filter>Export Header Files\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
