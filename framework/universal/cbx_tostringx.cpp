@@ -1,0 +1,125 @@
+/*
+ * Written by Tuomas Kontiainen <https://www.github.com/tutomiko>
+ *
+ * Copyright (c) 2022, Tuomas Kontiainen
+ *
+ * This file is a part of Carbon Plus Framework <https://github.com/tutomiko/Carbon-Plus-Framework>
+ * Carbon Plus Framework is a free software: you can redistribute it
+ * and/or modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation, either version 3 of
+ * the License, or (at your option) any later versions.
+ *
+ * Carbon Plus Framework is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+ * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Carbon Plus Framework. If not, see <http://www.gnu.org/licenses/>.
+ */
+#
+#
+#pragma region <imports>
+#pragma region "export header imports"
+#include <carbonx/type/string.h>
+#pragma endregion
+#
+#pragma region "platform-dependent imports"
+
+#pragma endregion
+#
+#pragma region "platform-independent imports"
+#include <iostream>
+#pragma endregion
+#
+#pragma region "3rd-party imports"
+
+#pragma endregion
+#
+#pragma region "shared imports"
+
+#pragma endregion
+#
+#pragma region "local imports"
+
+#pragma endregion
+#pragma endregion
+#
+#
+CBXEXPORT
+carbon::type::string carbon::type::to_string(bool value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(unsigned char value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(char value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(double value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(long double value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(float value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(int value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(unsigned int value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(long value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(unsigned long value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(unsigned long long value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(short value) {
+	return std::to_string(value);
+}
+
+
+CBXEXPORT
+carbon::type::string carbon::type::to_string(unsigned short value) {
+	return std::to_string(value);
+}
+
