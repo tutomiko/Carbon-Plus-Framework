@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3091bff0-0dc1-4b3f-9d00-0a30dc6273e0}</ProjectGuid>
+    <RootNamespace>module</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="build-debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="build.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="build-debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="build.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;MODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;MODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;MODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;MODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\framework\universal\cbx_character.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_current_processx.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_directoriesx.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_file.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_filesx.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_inetconx.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_memory.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_path.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_pathsx.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_path_it_name.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_path_it_sub.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_socketx.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_string.cpp" />
+    <ClCompile Include="..\..\..\framework\universal\cbx_tostringx.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_current_process_nt.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_current_thread_nt.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_directories_nt.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_directory_contents_it_nt.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_files_nt.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_inetcon_nt.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_numcon_nt.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_platform_nt.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_process_nt.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_sockets.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_socket_nt.cpp" />
+    <ClCompile Include="..\..\..\framework\win32\cbx_user_nt.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\carbonplus.h" />
+    <ClInclude Include="..\..\..\include\carbonx\cbxbase.h" />
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\directories.h" />
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\file.h" />
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\files.h" />
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\filesystem.h" />
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\path.h" />
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\paths.h" />
+    <ClInclude Include="..\..\..\include\carbonx\io\iobase.h" />
+    <ClInclude Include="..\..\..\include\carbonx\net\inet-types.h" />
+    <ClInclude Include="..\..\..\include\carbonx\net\inet-utils.h" />
+    <ClInclude Include="..\..\..\include\carbonx\net\inet.h" />
+    <ClInclude Include="..\..\..\include\carbonx\net\socket-channel.h" />
+    <ClInclude Include="..\..\..\include\carbonx\net\socket.h" />
+    <ClInclude Include="..\..\..\include\carbonx\net\socketbase.h" />
+    <ClInclude Include="..\..\..\include\carbonx\net\sockets.h" />
+    <ClInclude Include="..\..\..\include\carbonx\sys\platform.h" />
+    <ClInclude Include="..\..\..\include\carbonx\sys\process.h" />
+    <ClInclude Include="..\..\..\include\carbonx\sys\thread.h" />
+    <ClInclude Include="..\..\..\include\carbonx\sys\user.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\bool.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\byte.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\char.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\double.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\float.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\int.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\long.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\primitives.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\short.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\string.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\tchar.h" />
+    <ClInclude Include="..\..\..\include\carbonx\type\wchar.h" />
+    <ClInclude Include="..\..\..\include\carbonx\util\charset.h" />
+    <ClInclude Include="..\..\..\include\carbonx\util\concurrency.h" />
+    <ClInclude Include="..\..\..\include\carbonx\util\memory.h" />
+    <ClInclude Include="..\..\..\include\carbonx\util\prandom.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
