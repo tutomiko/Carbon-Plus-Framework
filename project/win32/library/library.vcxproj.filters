@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\net">
+      <UniqueIdentifier>{dc845736-ada7-4941-9da1-0a09458db13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\concurrency">
+      <UniqueIdentifier>{e1ac200f-cf66-4199-bc1f-f4f45a223435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{e65dbc63-253a-4600-b64f-d2dcbbd47de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sys">
+      <UniqueIdentifier>{0cacbe8f-3945-4445-b84e-7b3c790f8cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\io">
+      <UniqueIdentifier>{64c3d1da-c99a-4825-9312-690ac1200bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\filesystem">
+      <UniqueIdentifier>{5b6b6628-5786-4658-ba8b-b5659e622c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net">
+      <UniqueIdentifier>{3c32ab35-f143-4c93-90f0-870dd2e4d342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\concurrency">
+      <UniqueIdentifier>{844ead81-8f95-41cf-9f2f-814bc85f7684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\io">
+      <UniqueIdentifier>{df6e1cb4-183b-4e66-82a9-df10b9850c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem">
+      <UniqueIdentifier>{94a1ea4a-db48-4645-a3bd-a66cafa731ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sys">
+      <UniqueIdentifier>{95f37af0-d448-4d96-9747-b921e25da1cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{20afdeef-3824-477d-a737-aee098fff9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\type">
+      <UniqueIdentifier>{bec7d0b4-a01e-44be-945d-f0c7749d6982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\type">
+      <UniqueIdentifier>{6c227587-4a9b-4f51-a6f7-2b69ba27e82a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\carbonplus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\cbxbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\directories.h">
+      <Filter>Header Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\file.h">
+      <Filter>Header Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\files.h">
+      <Filter>Header Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\filesystem.h">
+      <Filter>Header Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\path.h">
+      <Filter>Header Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\filesystem\paths.h">
+      <Filter>Header Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\bool.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\byte.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\char.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\double.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\float.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\int.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\long.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\primitives.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\short.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\string.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\tchar.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\type\wchar.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\sys\platform.h">
+      <Filter>Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\sys\process.h">
+      <Filter>Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\sys\thread.h">
+      <Filter>Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\sys\user.h">
+      <Filter>Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\io\iobase.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\net\inet.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\net\inet-types.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\net\inet-utils.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\net\socket.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\net\socketbase.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\net\socket-channel.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\net\sockets.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\util\memory.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\util\concurrency.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\util\charset.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\carbonx\util\prandom.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\framework\universal\cbx_character.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_current_process_nt.cpp">
+      <Filter>Source Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_current_processx.cpp">
+      <Filter>Source Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_current_thread_nt.cpp">
+      <Filter>Source Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_directories_nt.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_directoriesx.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_directory_contents_it_nt.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_file.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_files_nt.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_filesx.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_path.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_path_it_name.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_path_it_sub.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_pathsx.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_socketx.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_sockets.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_socket_nt.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_memory.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_inetcon_nt.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_inetconx.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_numcon_nt.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_platform_nt.cpp">
+      <Filter>Source Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_process_nt.cpp">
+      <Filter>Source Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_string.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\universal\cbx_tostringx.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\framework\win32\cbx_user_nt.cpp">
+      <Filter>Source Files\sys</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
